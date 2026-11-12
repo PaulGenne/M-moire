@@ -1,0 +1,35 @@
+# ==============================================================================
+# .gitignore - Projet Mémoire Identification Abeilles Sauvages (EPIC & BAC 3)
+# ==============================================================================
+
+# Données brutes et individuelles des participants (RGPD & confidentialité)
+*.xlsx
+*.xls
+*.csv
+*.tsv
+*.rds
+*.RData
+*.Rdata
+*.Rhistory
+
+# Documents bureautiques personnels et manuscrits Word/PDF
+*.docx
+*.doc
+*.pptx
+*.pdf
+~$*
+
+# Environnements R, RStudio et VS Code
+.Rproj.user/
+.Renviron
+.Rprofile.site
+.vscode/
+.idea/
+
+# Fichiers temporaires système et artefacts agents
+.system_generated/
+.gemini/
+*.tmp
+Thumbs.db
+Desktop.ini
+Nouveau dossier/
